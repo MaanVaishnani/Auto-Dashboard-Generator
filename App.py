@@ -171,14 +171,14 @@ import tempfile
 import pandas as pd
 import streamlit as st
 
-from core.profiler import profile_and_clean
-from core.rule_engine import (
+from profiler import profile_and_clean
+from Rule_engine import (
     generate_chart_recommendations,
     identify_excluded_columns,
     score_numeric_column,
 )
-from core.chart_builder import build_all_charts
-from core.insight_generator import generate_insights_for_charts
+from Chart_builder import build_all_charts
+from Insight_generator import generate_insights_for_charts
 
 
 # =======================================================================
